@@ -1,0 +1,32 @@
+.note-item .delete-btn {
+  display: none;
+}
+
+.note-item:hover .delete-btn {
+  display: inline-block;
+}
+/* Barva nadpisu */
+h1 {
+  color: #dbd000;
+  text-shadow: 1px 1px 20px rgb(170, 176, 0);
+  margin-left: 5px;
+}
+
+/* Barva tlačítka Smazat */
+.delete-btn {
+  background: #e57373;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.delete-btn:hover {
+  background: #c62828;
+}data
+
+/* Barva formuláře dole */
+.form-bottom {
+  background: #1976d2;
+}

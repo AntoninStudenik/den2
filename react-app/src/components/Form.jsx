@@ -21,20 +21,24 @@ function Form({ onSubmit }) {
         bottom: 0, 
         left: 0, 
         width: '100%', 
-        background: '#fff', 
+        background: '#000099', // zde nastavíš barvu pozadí
+        color: '#fff',         // zde nastavíš barvu textu
         padding: '10px', 
-        boxShadow: '0 -2px 8px rgba(0,0,0,0.05)' 
+        boxShadow: '0 -2px 30px rgb(17, 0, 255)' 
       }}
     >
       <input
+      
         type="text"
         value={value}
         onChange={handleChange}
         placeholder="Napiš něco…"
-        style={{ width: '70%', padding: '8px', fontSize: '16px' }}
+        style={{ width: '70%', padding: '8px', fontSize: '16px',
+        background: '#DDDDDD',
+        }}
       />
       <button type="submit" style={{ padding: '8px 16px', marginLeft: '8px' }}>
-        Odeslat
+        Přidat
       </button>
     </form>
   );
